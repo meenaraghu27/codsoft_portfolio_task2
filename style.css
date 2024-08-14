@@ -1,0 +1,518 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+/* utility section */
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    
+    padding: 12px;
+    background-color: rgb(18, 18, 95);
+    color: white;
+    /* width: 100px; */
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover{
+    background: transparent;
+    border:3px solid white; ;
+}
+
+hr{
+    border: 0;
+    background: rgb(198, 158, 239);
+    height: 0.1rem;
+    margin: 40px 42px 40px 42px;
+    position: relative;
+}
+
+h1{
+    font-size: 2.1rem;
+}
+
+.text-gray{
+    color: gray;
+    font-size: 1.2rem;
+}
+
+
+label{
+    font-size: 2rem;
+}
+
+.container{
+    margin: 40px 42px 40px 42px;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    width: 55px;
+    
+}
+
+.contact{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact a{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact li:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(79, 163, 227));
+    
+}
+
+/* style section */
+body{
+    background-color: rgb(7, 7, 75);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(6, 6, 41);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(128, 128, 219);
+    font-size: 1.01rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+.firstSection > div{
+    width: 40%;
+}
+.leftSection{
+    /* background-color: red; */
+    font-size: 3rem;
+    
+}
+.rightSection img{
+    width: 80%;
+}
+.purple{
+    color: rgb(156, 83, 225);
+}
+
+#element{
+    color: rgb(156, 83, 225);
+}
+.mainarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: rgb(7, 7, 75);
+}
+
+.mainarea .left {
+    flex: 1;
+}
+
+
+.mainarea .left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.mainarea .left h5 {
+    margin-bottom: 2rem;
+}
+
+.mainarea .left .social-media a {
+    margin-right: 1rem;
+    background-color: white;
+    width: 100px;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+    color: navy;
+    font-size: 2rem;
+}
+.mainarea .left .social-media a:hover {
+    background-color: rgb(7, 7, 75) ;
+}
+.mainarea .left .social-media a:active {
+    background-color: blue;
+}
+
+.mainarea .left .btn1 {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color:  rgb(7, 7, 75);
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.mainarea .left .btn1:hover{
+    background-color: rgb(7, 7, 75);
+}
+.mainarea .left .btn1:active{
+    background: #f2662e7b;
+}
+
+
+.mainarea .right {
+    flex: 1;
+    text-align: center;
+}
+
+.mainarea .right img {
+    max-width: 100%;
+    width: 350px;
+    padding-top: 25px;
+    height: auto;
+    cursor: pointer;
+    
+}
+/* education section */
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}   
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    background: white;
+    height:93px ;
+    width: 2px;
+    margin: 0px 200px;
+    
+}
+.vertical .image-top{
+    width: 35px;
+    position: relative;
+    top: -42px;
+    right: 12px;
+}
+.vertical-title{
+    position: relative;
+    top: 60px;
+    right: 6px;
+    width: 250px;
+    font-size: 16px;
+}
+.vertical-desc{
+    color: gray;
+    position: relative;
+    top: 60px;
+    right: 6px;
+    width: 150px;
+    font-size: 11px;
+}
+
+.hr-line2{
+    border: 0;
+    background: rgb(198, 158, 239);
+    height: 0.1rem;
+    margin: 40px 42px 40px 42px;
+    position: relative;
+    top: 200px;
+}
+
+
+/* skill section */
+.third-section{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin: 220px 165px 2px;
+    
+}
+
+.left{
+    width: 40vw;
+}
+
+.skills{
+    margin: 20px;
+}
+
+.label{
+    margin-top: 10px;
+}
+
+.skills .prg-bar{
+    display: flex;
+    width: 40vw;
+    height: 2.5rem;
+    
+}
+
+
+.right{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    margin-top:50px ;
+    width: 200%;
+    
+}
+
+.hr-line3{
+    border: 0;
+    background: rgb(198, 158, 239);
+    height: 0.1rem;
+    margin: 40px 42px 40px 42px;
+    position: relative;
+    /* top: 25px; */
+}
+
+/* projects section */
+
+.fourth-section{
+    padding: 5px 50px;
+}
+
+.summary{
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.summary-content{
+    border-left: 2px solid yellow;
+    margin-top: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.summary-content h4{
+    font-size: 1.2em;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.all-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row{
+    grid-gap: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+
+.project{
+  align-items: center;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 500px;
+  padding: 10px;
+}
+
+.project .thumbnail img{
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.project .content{
+    text-align: center;
+}
+
+.project .content h2{
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.project .content p{
+    color: #fff;
+    font-size: 1.1em;
+    font-style: normal;
+    text-transform: none;
+}
+
+.project .demo-btn {
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+
+.project .demo-btn a {
+    background-color: initial;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    outline: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out;
+    user-select: none;
+}
+
+.project .demo-btn a:hover {
+    border: 3px solid #fff;
+}
+.fifth-section{
+    padding: 20px;
+}
+.sixth-section{
+    padding: 5px 50px;
+}
+.cointainer-first h3{
+    font-size: 2rem;
+}
+.cointainer-second{
+    width: 570px;
+}
+.cointainer-second h3{
+    font-size: 1.5rem;
+}
+
+
+/* contact me section */
+.hr-line4{
+    border: 0;
+    background: rgb(198, 158, 239);
+    height: 0.1rem;
+    margin: 40px 42px 40px 42px;
+    position: relative;
+    
+}
+
+/* footer section */
+footer{
+    position: relative;
+    top: 66px;
+    background-color: rgb(35, 29, 35);
+    width: 100%;
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 24px;
+    justify-content: space-evenly;
+}
+
+.footer-first h3{
+    font-size: 2rem;
+    
+}
+.footer-second{
+    width: 570px;
+}
+.footer-second h3{
+    font-size: 1.5rem;
+}
+footer .footer-rights{
+    text-align: center;
+    padding: 12px 0 ;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%; /* Make buttons full width */
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Adjust heading size */
+    }
+
+    .contact {
+        flex-direction: column; /* Stack contact items vertically */
+    }
+
+    .firstSection {
+        flex-direction: column; /* Stack sections vertically */
+        margin: 40px 0;
+    }
+
+    .mainarea .left h1 {
+        font-size: 2rem; /* Adjust the main area heading size */
+    }
+
+    .mainarea .right img {
+        width: 100%; /* Make image full width */
+    }
+
+    .third-section {
+        flex-direction: column; /* Stack skills sections vertically */
+        gap: 20px; /* Reduce gap between sections */
+        margin: 100px 20px; /* Adjust margins */
+    }
+
+    .right img {
+        width: 100%; /* Make the image full width */
+    }
+
+    .row {
+        grid-template-columns: 1fr; /* Make projects stack in one column */
+    }
+
+    .project {
+        min-height: auto; /* Adjust minimum height for smaller screens */
+    }
+
+    footer {
+        flex-direction: column; /* Stack footer items vertically */
+    }
+    
+}
